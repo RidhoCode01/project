@@ -1,0 +1,91 @@
+body {
+    background-color: #EDEDED; 
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.card-profile {
+  align-content:center;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 30px;
+  margin: 15px 15px;
+  border-radius: 15px 50px;
+}
+
+.me {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: auto;
+  padding: auto;
+}
+
+.desc {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+}
+
+.note-card {
+  background-color: #7782EE;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 5px;
+  margin: 15px 15px;
+  border-radius: 5px;
+}
+
+.note {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  font-size: 12px;
+}
+
+.cnt {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #fff;
+  font-size: 12px;
+  margin: 10px;
+}
+
+footer {
+    color: #000;
+    clear: both;
+    margin: 0em 0em 0em 0em;
+    padding: 0.75em 0.75em;
+    background: #EDEDED;
+    position: relative;
+    top: 490px;
+    border-top: 1px solid #000;
+    text-align: center
+}
+
+.footer-txt {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #000;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.profile {
+  border-radius: 100%;
+  float: left;
+  width: 50px;
+  height: 50px;
+}
